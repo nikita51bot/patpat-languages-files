@@ -38,8 +38,17 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
-
-      - name: Merge crowdin translations
+      
+      - name: Debug crowdin outputs
         run: |
           echo "Created PR URL: ${{ steps.crowdin_update.outputs.pull_request_url }}"
           echo "PR Number: ${{ steps.crowdin_update.outputs.pull_request_number }}"
+
+      - name: Merge crowdin translations
+        id: automerge
+        uses: "pascalgn/automerge-action@v0.16.4"
+        env:
+          MERGE_METHOD: "squash"
+          PULL_REQUEST: "${{ steps.crowdin_update.outputs.pull_request_number }}"
+          GITHUB_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
+        
