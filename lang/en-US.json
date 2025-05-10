@@ -51,5 +51,5 @@
 	"patpat.command.ratelimit.info.description": "Prints information about rate limit settings",
 
 	"patpat.warn.old_version_mod": "You have an outdated mod version that will no longer be supported in future plugin updates. Please update as soon as possible!",
-	"patpat.link.open": "Open %s"
+	"patpat.link.open": "Open {0}"
 }
