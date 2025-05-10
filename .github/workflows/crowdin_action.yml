@@ -38,52 +38,8 @@ jobs:
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
-
-  merge:
-    needs: crowdin
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Check if PR is from Crowdin
-        id: check-crowdin-pr
+      - name: Merge crowdin translations
+        if: steps.crowdin.outputs.pull_request_url
         run: |
-          PR_TITLE="${{ github.event.pull_request.title }}"
-          PR_BODY="${{ github.event.pull_request.body }}"
-          PR_AUTHOR="${{ github.event.pull_request.user.login }}"
-          REPO_OWNER="${{ github.repository_owner }}"
-
-          if [[ "$PR_TITLE" != *"$PULL_REQUEST_TITLE"* ]]; then
-            echo "PR title does not contain '$PULL_REQUEST_TITLE'. Exiting..."
-            exit 0
-          fi
-
-          if [[ "$PR_BODY" != *"$PULL_REQUEST_BODY"* ]]; then
-            echo "PR body does not contain '$PULL_REQUEST_BODY'. Exiting..."
-            exit 0
-          fi
-
-          # Check if the PR author is the repository owner
-          if [[ "$PR_AUTHOR" != "$REPO_OWNER" ]]; then
-            echo "PR author is not the repository owner. Exiting..."
-            exit 0
-          fi
-          
-          # Add more checks as needed
-          # Example: Check for specific files, changes, or other criteria
-          
-          # The above checks have passed so this is a Crowdin PR
-          # otherwise the job would have exited
-          # Set an environment variable to indicate this
-          echo "IS_CROWDIN_PR=true" >> $GITHUB_ENV
-
-      - name: Merge Crowdin PR
-        if: env.IS_CROWDIN_PR == 'true'
-        run: |
-          # Replace with your GitHub token and repository information
-          GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
-
-          # Merge the pull request
-          curl -X PUT -H "Authorization: token $GITHUB_TOKEN" \
-            -d '{
-              "merge_method": "merge"
-            }' "$GITHUB_API_URL/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/merge"
+          echo "Created PR URL: ${{ steps.crowdin.outputs.pull_request_url }}"
+          echo "PR Number: ${{ steps.crowdin.outputs.pull_request_number }}"
