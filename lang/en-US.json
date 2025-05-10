@@ -1,5 +1,5 @@
 {
-	"patpat.command.list.add": "Player {0} has been added to the list",
+	"patpat.command.list.add": "Player {0} has been added to the list TEST",
 	"patpat.command.list.add.already": "Player {0} is already on the list!",
 	"patpat.command.list.remove": "Player {0} has been removed from the list",
 	"patpat.command.list.remove.already": "Player {0} is already not on the list!",
