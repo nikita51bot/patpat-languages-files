@@ -48,5 +48,8 @@
 	"patpat.command.ratelimit.set.limit.description": "Sets the token limit",
 	"patpat.command.ratelimit.disable.description": "Disables rate-limiting functionality",
 	"patpat.command.ratelimit.enable.description": "Enables rate-limiting functionality",
-	"patpat.command.ratelimit.info.description": "Prints information about rate limit settings"
+	"patpat.command.ratelimit.info.description": "Prints information about rate limit settings",
+
+	"patpat.warn.old_version_mod": "You have an outdated mod version that will no longer be supported in future plugin updates. Please update as soon as possible!",
+	"patpat.link.open": "Open %s"
 }
