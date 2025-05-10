@@ -48,6 +48,7 @@
 	"patpat.command.ratelimit.set.limit.description": "Sets the token limit",
 	"patpat.command.ratelimit.disable.description": "Disables rate-limiting functionality",
 	"patpat.command.ratelimit.enable.description": "Enables rate-limiting functionality",
-	"patpat.command.ratelimit.info.description": "Prints information about rate limit settings"
+	"patpat.command.ratelimit.info.description": "Prints information about rate limit settings",
+	"test":"Test"
 
 }
