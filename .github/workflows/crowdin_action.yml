@@ -9,6 +9,10 @@ permissions:
   contents: write
   pull-requests: write
 
+env:
+  PULL_REQUEST_TITLE: 'New Crowdin translations'
+  PULL_REQUEST_BODY: 'New Crowdin pull request with translations'
+
 jobs:
   crowdin:
     runs-on: ubuntu-latest
@@ -24,8 +28,8 @@ jobs:
           download_translations: true
           localization_branch_name: crowdin_translations
           create_pull_request: true
-          pull_request_title: 'New Crowdin translations'
-          pull_request_body: 'New Crowdin pull request with translations'
+          pull_request_title: ${{ env.PULL_REQUEST_TITLE }}
+          pull_request_body: ${{ env.PULL_REQUEST_BODY }}
           pull_request_base_branch_name: 'main'
           source: "lang/en-US.json"
           translation: "lang/%locale%.json"
@@ -33,3 +37,52 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
+
+
+  merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if PR is from Crowdin
+        id: check-crowdin-pr
+        run: |
+          PR_TITLE="${{ github.event.pull_request.title }}"
+          PR_BODY="${{ github.event.pull_request.body }}"
+          PR_AUTHOR="${{ github.event.pull_request.user.login }}"
+          REPO_OWNER="${{ github.repository_owner }}"
+
+          if [[ "$PR_TITLE" != *"$PULL_REQUEST_TITLE"* ]]; then
+            echo "PR title does not contain '$PULL_REQUEST_TITLE'. Exiting..."
+            exit 0
+          fi
+
+          if [[ "$PR_BODY" != *"$PULL_REQUEST_BODY"* ]]; then
+            echo "PR body does not contain '$PULL_REQUEST_BODY'. Exiting..."
+            exit 0
+          fi
+
+          # Check if the PR author is the repository owner
+          if [[ "$PR_AUTHOR" != "$REPO_OWNER" ]]; then
+            echo "PR author is not the repository owner. Exiting..."
+            exit 0
+          fi
+          
+          # Add more checks as needed
+          # Example: Check for specific files, changes, or other criteria
+          
+          # The above checks have passed so this is a Crowdin PR
+          # otherwise the job would have exited
+          # Set an environment variable to indicate this
+          echo "IS_CROWDIN_PR=true" >> $GITHUB_ENV
+
+      - name: Merge Crowdin PR
+        if: env.IS_CROWDIN_PR == 'true'
+        run: |
+          # Replace with your GitHub token and repository information
+          GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}
+
+          # Merge the pull request
+          curl -X PUT -H "Authorization: token $GITHUB_TOKEN" \
+            -d '{
+              "merge_method": "merge"
+            }' "$GITHUB_API_URL/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/merge"
