@@ -22,6 +22,7 @@ jobs:
 
       - name: Crowdin upload and download translations
         uses: crowdin/github-action@v2
+        id: crowdin_update
         with:
           upload_sources: true
           upload_translations: false
@@ -40,5 +41,5 @@ jobs:
 
       - name: Merge crowdin translations
         run: |
-          echo "Created PR URL: ${{ steps.crowdin.outputs.pull_request_url }}"
-          echo "PR Number: ${{ steps.crowdin.outputs.pull_request_number }}"
+          echo "Created PR URL: ${{ steps.crowdin_update.outputs.pull_request_url }}"
+          echo "PR Number: ${{ steps.crowdin_update.outputs.pull_request_number }}"
