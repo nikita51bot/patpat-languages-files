@@ -46,6 +46,7 @@ jobs:
 
       - name: Merge crowdin translations
         id: automerge
+        if: steps.crowdin_update.outputs.pull_request_number
         uses: "pascalgn/automerge-action@v0.16.4"
         env:
           MERGE_METHOD: "squash"
