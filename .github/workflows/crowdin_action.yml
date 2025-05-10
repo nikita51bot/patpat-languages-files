@@ -39,7 +39,6 @@ jobs:
           CROWDIN_PERSONAL_TOKEN: ${{ secrets.CROWDIN_PERSONAL_TOKEN }}
 
       - name: Merge crowdin translations
-        if: steps.crowdin.outputs.pull_request_url
         run: |
           echo "Created PR URL: ${{ steps.crowdin.outputs.pull_request_url }}"
           echo "PR Number: ${{ steps.crowdin.outputs.pull_request_number }}"
