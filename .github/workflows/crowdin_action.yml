@@ -40,8 +40,8 @@ jobs:
           pull_request_body: ${{ env.PULL_REQUEST_BODY }}
           pull_request_labels: "automerge"
           pull_request_base_branch_name: 'main'
-          source: "lang/en-US.json"
-          translation: "lang/%locale%.json"
+          source: "lang/en_US.json"
+          translation: "lang/%locale_with_underscore%.json"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CROWDIN_PROJECT_ID: ${{ secrets.CROWDIN_PROJECT_ID }}
