@@ -13,5 +13,6 @@
 	"patpat.command.ratelimit.info.tokens": "Токены: {0}",
 	"patpat.command.ratelimit.info.tokens.bypass": "Обход",
 	"patpat.warn.old_version_mod": "У вас старая версия мода, которая в будущих обновлениях плагина перестанет поддерживаться. Постарайтесь обновиться как можно скорее!",
-	"patpat.link.open": "Открыть {0}"
+	"patpat.link.open": "Открыть {0}",
+	"modmenu.descriptionTranslation.patpat": "Простой клиентский и (опционально) серверный Fabric мод для патанья любых (живых) мобов!"
 }
