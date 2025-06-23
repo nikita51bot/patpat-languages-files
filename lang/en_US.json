@@ -142,6 +142,5 @@
 	"patpat.command.ratelimit.info.tokens.bypass": "Bypass",
 
 	"patpat.warn.old_version_mod": "You have an outdated mod version that will no longer be supported in future plugin updates. Please update as soon as possible!",
-	"patpat.link.open": "Open {0}",
-	"patpat.test": "Test"
+	"patpat.link.open": "Open {0}"
 }
