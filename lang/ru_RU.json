@@ -1,7 +1,7 @@
 {
 	"patpat.command.no_permission": "У вас нет разрешения на выполнение этой команды!",
 	"patpat.command.list.add.already": "Игрок {0} уже в списке!",
-	"patpat.command.list.remove.already": "Игрока {0} уже нет в списке!",
+	"patpat.command.list.remove.already": "Игрока {0} уже не в списке!",
 	"patpat.command.list.set.already": "Режим списка уже {0}!",
 	"patpat.command.info.platform": "Платформа: {0}",
 	"patpat.command.info.minecraft_version": "Версия Minecraft: {0}",
