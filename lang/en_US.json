@@ -146,6 +146,11 @@
 	"patpat.command.ratelimit.info.tokens": "Tokens: {0}",
 	"patpat.command.ratelimit.info.tokens.bypass": "Bypass",
 
+	"patpat.command.ignore.add.success": "Mob {0} have been ignored",
+	"patpat.command.ignore.add.already": "Mob {0} is already ignored",
+	"patpat.command.ignore.remove.success": "Mob {0} is no longer ignored",
+	"patpat.command.ignore.remove.already": "Mob {0} wasn't ignored",
+
 	"patpat.warn.old_version_mod": "You have an outdated mod version that will no longer be supported in future plugin updates. Please update as soon as possible!",
 	"patpat.link.open": "Open {0}"
 }
