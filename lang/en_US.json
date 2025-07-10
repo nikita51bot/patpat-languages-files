@@ -41,8 +41,11 @@
 	"patpat.modmenu.option.hiding_nickname_enabled.name": "Enable Nickname Hiding",
 	"patpat.modmenu.option.hiding_nickname_enabled.description": "If enabled, entity's nickname will disappear when you or someone pats it;\nif disabled, won't.",
 
-	"patpat.modmenu.option.swing_hand_enabled.name": "Enable Hand Swinging",
-	"patpat.modmenu.option.swing_hand_enabled.description": "If enabled, your hand in hud will moving;\nif disabled, won't.",
+	"patpat.modmenu.option.client_swing_hand_enabled.name": "Enable Client Hand Swinging",
+	"patpat.modmenu.option.client_swing_hand_enabled.description": "If enabled, you will swing your hand when you are patting someone;\nif disabled, won't.",
+
+	"patpat.modmenu.option.server_swing_hand_enabled.name": "Enable Server Hand Swinging",
+	"patpat.modmenu.option.server_swing_hand_enabled.description": "If enabled, other players will see your hand swinging when you are patting someone;\nif disabled, won't.",
 
 	"patpat.modmenu.option.lowering_animation_enabled.name": "Enable Lowering Animation",
 	"patpat.modmenu.option.lowering_animation_enabled.description": "If enabled, pat animation will lowering;\nif disabled, won't.",
@@ -85,7 +88,7 @@
 
 	"patpat.keybinding.pat": "Pat Entity",
 
-	"patpat.command.error.failed_when_parsing": "Failed when parsing: {0}",
+	"patpat.command.error.failed_when_parsing": "Error when parsing: {0}",
 	"patpat.command.error.not_number": "{0} is not a number",
 	"patpat.command.error.number_less_than": "Number {0} can't be less than {1}",
 	"patpat.command.error.not_time": "{0} is not a valid time value (examples: 1sec, 5s, 5min)",
