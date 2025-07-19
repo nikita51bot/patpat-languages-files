@@ -1,7 +1,7 @@
 {
 	"patpat.command.no_permission": "У вас нет разрешения на выполнение этой команды!",
 	"patpat.command.list.add.already": "Игрок {0} уже в списке!",
-	"patpat.command.list.remove.already": "Игрока {0} уже не в списке!",
+	"patpat.command.list.remove.already": "Игрок {0} уже не в списке!",
 	"patpat.command.list.set.already": "Режим списка уже {0}!",
 	"patpat.command.info.platform": "Платформа: {0}",
 	"patpat.command.info.minecraft_version": "Версия Minecraft: {0}",
@@ -38,8 +38,8 @@
 	"patpat.modmenu.no_config_libraries_screen.close": "[Esc] чтобы закрыть",
 	"patpat.modmenu.group.custom_animations.description": "Настройки пользовательских анимаций, сделанных с помощью наборов ресурсов.",
 	"patpat.command.on.success": "PatPat мод был включён",
-	"patpat.modmenu.option.client_swing_hand_enabled.description": "Если включено, ваш персонаж будет махать основной рукой при похлопывании моба;\nесли отключено, не будет.",
-	"patpat.modmenu.option.server_swing_hand_enabled.description": "Если включено, другие игроки смогут увидеть ваше махание рукой при похлопывании моба;\nесли отключено, не будет.",
+	"patpat.modmenu.option.client_swing_hand_enabled.description": "Если включено, ваш персонаж будет махать рукой при похлопывании кого-то;\nесли отключено, не будет.",
+	"patpat.modmenu.option.server_swing_hand_enabled.description": "Если включено, другие игроки смогут увидеть ваше махание рукой при похлопывании кого-то;\nесли отключено, не будет.",
 	"patpat.modmenu.option.max_packets_per_second.description": "Максимальное количество пакетов в секунду. Это сделано для того, чтобы сервер не кикнул вас с сервера за слишком большое количество пакетов.\nЕсли вы сделаете 50 похлопываний в секунду, но имея лимит в 10 похлопываний, вы увидите все 50 похлопываний, но другие игроки увидят только 10.\n\nИспользуйте с крайней осторожностью при больших значениях!",
 	"patpat.command.list.info.content": "{0} игрок(ов) в списке:",
 	"patpat.command.on.already": "PatPat уже был включён",
@@ -67,7 +67,7 @@
 	"patpat.formatter.enabled_or_disabled.true": "Включено",
 	"patpat.formatter.enabled_or_disabled.false": "Выключено",
 	"patpat.keybinding.pat": "Похлопать моба",
-	"patpat.command.error.failed_when_parsing": "Неудачный разбор команды: {0}",
+	"patpat.command.error.failed_when_parsing": "Ошибка при разборе: {0}",
 	"patpat.command.error.not_number": "{0} не является числом",
 	"patpat.command.error.number_less_than": "Число {0} не может быть меньше, чем {1}",
 	"patpat.command.error.not_time": "{0} не является временным значением (примеры: 1sec, 5s, 5min)",
@@ -102,5 +102,9 @@
 	"patpat.modmenu.option.bypass_server_animations_priority_enabled.description": "Если включено, приоритет серверных анимаций будет пропускаться;\nесли отключено, не будет.",
 	"patpat.modmenu.option.animation_offset_x.name": "Смещение анимации по оси X",
 	"patpat.modmenu.option.animation_offset_x.description": "Переместить анимацию по оси X относительно стандартного положения.",
-	"patpat.modmenu.option.animation_offset_z.description": "Переместить анимацию по оси Z относительно стандартного положения."
+	"patpat.modmenu.option.animation_offset_z.description": "Переместить анимацию по оси Z относительно стандартного положения.",
+	"patpat.command.ignore.add.already": "Сущность {0} уже проигнорирована",
+	"patpat.command.ignore.remove.success": "Сущность {0} больше не игнорируется",
+	"patpat.command.ignore.add.success": "Сущность {0} была проигнорирована",
+	"patpat.command.ignore.remove.already": "Сущность {0} не была проигнорирована"
 }
