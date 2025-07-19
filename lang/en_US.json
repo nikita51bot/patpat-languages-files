@@ -78,7 +78,7 @@
 	"patpat.modmenu.group.proximity_packets.description": "Proximity packets are packets for exchanging small data between players close to each other.\n\nPatPat Mod uses such packets in pat packets so that other players will see your pats, even without having a mod or plugin on the server.\n\nPure magic.",
 
 	"patpat.modmenu.option.proximity_packets_enabled.name": "Enable Proximity Packets",
-	"patpat.modmenu.option.proximity_packets_enabled.description": "If enabled, other players will see pats from you (without mod or plugin on the server);\nif disabled, they won't.",
+	"patpat.modmenu.option.proximity_packets_enabled.description": "If enabled, other players will see pats from you (when plugin or mod is not installed on the server);\nif disabled, they won't.",
 
 	"patpat.modmenu.option.max_packets_per_second.name": "Max Packets Per Second",
 	"patpat.modmenu.option.max_packets_per_second.description": "Maximum number of proximity packets per second. This is to prevent the server from kicking you due to a large number of packets.\nIf you made 50 pats per second, with a limit of 10, you will see 50 pats per second, but other players will only see 10.\n\nUse with caution at higher values!",
@@ -91,7 +91,7 @@
 	"patpat.command.error.failed_when_parsing": "Error when parsing: {0}",
 	"patpat.command.error.not_number": "{0} is not a number",
 	"patpat.command.error.number_less_than": "Number {0} can't be less than {1}",
-	"patpat.command.error.not_time": "{0} is not a valid time value (examples: 1sec, 5s, 5min)",
+	"patpat.command.error.not_time": "{0} is not a valid time value (examples: {1})",
 	"patpat.command.error.time_less_than": "Time {0} can't be less than {1}",
 	"patpat.command.error.player_not_exist": "Player {0} does not exist!",
 	"patpat.command.error.only_one_player": "This command can have only one player in argument",
@@ -119,11 +119,11 @@
 	"patpat.command.info.version": "Version: {0}",
 	"patpat.command.info.copy": "Copy debug information",
 
-	"patpat.command.on.success": "PatPat Mod has been enabled",
-	"patpat.command.on.already": "PatPat Mod was already enabled",
+	"patpat.command.on.success": "PatPat mod has been enabled",
+	"patpat.command.on.already": "PatPat mod was already enabled",
 
-	"patpat.command.off.success": "PatPat Mod has been disabled",
-	"patpat.command.off.already": "PatPat Mod was already disabled",
+	"patpat.command.off.success": "PatPat mod has been disabled",
+	"patpat.command.off.already": "PatPat mod was already disabled",
 
 	"patpat.command.ratelimit.set.increment": "Set token increment to: {0}",
 	"patpat.command.ratelimit.set.interval": "Set token interval to: {0}",
@@ -136,10 +136,10 @@
 	"patpat.command.ratelimit.disable.already": "RateLimit is already disabled",
 
 	"patpat.command.ratelimit.info.status": "Status: {0}",
-	"patpat.command.ratelimit.info.increment": "Token increment: {0}",
-	"patpat.command.ratelimit.info.interval": "Token interval: {0}",
+	"patpat.command.ratelimit.info.increment": "Token Increment: {0}",
+	"patpat.command.ratelimit.info.interval": "Token Interval: {0}",
 	"patpat.command.ratelimit.info.limit": "Token Limit: {0}",
-	"patpat.command.ratelimit.info.permission_bypass": "Permission bypass: {0}",
+	"patpat.command.ratelimit.info.permission_bypass": "Bypass permission: {0}",
 	"patpat.command.ratelimit.info.permission_bypass.copy": "Copy bypass permission",
 
 	"patpat.command.ratelimit.info.player": "Player: {0}",
