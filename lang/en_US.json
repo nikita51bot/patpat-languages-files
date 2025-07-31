@@ -84,6 +84,9 @@
 	"patpat.modmenu.option.max_packets_per_second.name": "Max Packets Per Second",
 	"patpat.modmenu.option.max_packets_per_second.description": "Maximum number of proximity packets per second. This is to prevent the server from kicking you due to a large number of packets.\nIf you made 50 pats per second, with a limit of 10, you will see 50 pats per second, but other players will only see 10.\n\nUse with caution at higher values!",
 
+	"patpat.modmenu.option.proximity_packets_servers_whitelist.name": "Servers whitelist",
+	"patpat.modmenu.option.proximity_packets_servers_whitelist.description": "This list the servers where Proximity Packets will work. Note that if this list is empty, Proximity Packets will function on ALL servers!",
+
 	"patpat.formatter.enabled_or_disabled.true": "Enabled",
 	"patpat.formatter.enabled_or_disabled.false": "Disabled",
 
