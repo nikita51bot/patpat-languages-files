@@ -106,5 +106,8 @@
 	"patpat.command.ignore.add.already": "Сущность {0} уже проигнорирована",
 	"patpat.command.ignore.remove.success": "Сущность {0} больше не игнорируется",
 	"patpat.command.ignore.add.success": "Сущность {0} была проигнорирована",
-	"patpat.command.ignore.remove.already": "Сущность {0} не была проигнорирована"
+	"patpat.command.ignore.remove.already": "Сущность {0} не была проигнорирована",
+	"patpat.modmenu.option.proximity_packets_servers_whitelist.description": "Это список серверов, на которых будут работать близкие пакеты. Обратите внимание, что если список пуст, близкие пакеты будут работать на ВСЕХ серверах!",
+	"patpat.modmenu.option.proximity_packets_servers_whitelist.name": "Белый список серверов",
+	"patpat.modmenu.option.proximity_packets_enabled.warn": "Эта настройка работает путём отправки пакетов на сервер, из-за чего некоторые античит-системы могут счесть это как читерство или флудом пакетами - что потенциально может привести к БАНУ на сервере. Используйте предельно осторожно!"
 }
