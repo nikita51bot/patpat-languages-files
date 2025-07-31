@@ -79,6 +79,7 @@
 
 	"patpat.modmenu.option.proximity_packets_enabled.name": "Enable Proximity Packets",
 	"patpat.modmenu.option.proximity_packets_enabled.description": "If enabled, other players will see pats from you (when plugin or mod is not installed on the server);\nif disabled, they won't.",
+	"patpat.modmenu.option.proximity_packets_enabled.warn": "This option works by sending packets to the server, which may cause some anti-cheat systems to flag it as cheating or packet flooding - potentially getting you BANNED on the server. Use this with extreme caution!",
 
 	"patpat.modmenu.option.max_packets_per_second.name": "Max Packets Per Second",
 	"patpat.modmenu.option.max_packets_per_second.description": "Maximum number of proximity packets per second. This is to prevent the server from kicking you due to a large number of packets.\nIf you made 50 pats per second, with a limit of 10, you will see 50 pats per second, but other players will only see 10.\n\nUse with caution at higher values!",
