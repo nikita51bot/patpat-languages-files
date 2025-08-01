@@ -106,5 +106,11 @@
 	"patpat.modmenu.group.custom_animations.name": "Користувацькі анімації",
 	"patpat.modmenu.group.custom_animations.description": "Налаштування користувацьких анімацій, створених за допомогою пакетів ресурсів.",
 	"patpat.modmenu.option.animation_offset_x.name": "Зсув анімації по осі X",
-	"patpat.modmenu.option.animation_offset_x.description": "Зсуває анімацію по осі X відносно початкової позиції."
+	"patpat.modmenu.option.animation_offset_x.description": "Зсуває анімацію по осі X відносно початкової позиції.",
+	"patpat.modmenu.option.proximity_packets_enabled.warn": "Ця опція працює шляхом надсилання пакетів на сервер, що може призвести до того, що деякі античіт-системи позначать її як шахрайство або перевантаження пакетами, що потенційно може призвести до вашого БАНУ на сервері. Використовуйте це з особливою обережністю!",
+	"patpat.modmenu.option.proximity_packets_list_is_blacklist.warn": "Безпечніше залишати режим білого списку ввімкненим і вказувати сервери, де дозволені близькі пакети, ніж перемикатися в режим чорного списку. У режимі чорного списку функція працюватиме на всіх невідомих серверах за замовчуванням, і ви ризикуєте отримати блокування!",
+	"patpat.modmenu.option.proximity_packets_servers_whitelist.name": "Білий список серверів",
+	"patpat.modmenu.option.proximity_packets_servers_whitelist.description": "Цей список містить сервери, на яких працюватимуть близькі пакети. Зверніть увагу, що якщо цей список порожній, близькі пакети працюватимуть на ВСІХ серверах!",
+	"patpat.modmenu.option.proximity_packets_list_is_blacklist.name": "Режим чорного списку",
+	"patpat.modmenu.option.proximity_packets_list_is_blacklist.description": "Якщо ввімкнено, список нижче діятиме як чорний список, тобто близькі пакети не працюватимуть на серверах, перелічених нижче.\nЯкщо вимкнено, близькі пакети працюватимуть лише на серверах, перелічених нижче"
 }
