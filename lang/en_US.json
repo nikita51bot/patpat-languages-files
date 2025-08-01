@@ -89,7 +89,7 @@
 	"patpat.modmenu.option.proximity_packets_list_is_blacklist.warn": "It's safer to keep whitelist mode enabled and specify servers where proximity packets are allowed, rather than switching to blacklist mode. In blacklist mode, the feature will work on all unknown servers by default, and you risk getting blocked!",
 
 	"patpat.modmenu.option.proximity_packets_servers_whitelist.name": "Servers whitelist",
-	"patpat.modmenu.option.proximity_packets_servers_whitelist.description": "This list the servers where Proximity Packets will work. Note that if this list is empty, Proximity Packets will function on ALL servers!",
+	"patpat.modmenu.option.proximity_packets_servers_whitelist.description": "This list the servers where Proximity Packets will work, or not work if blacklist mode is enabled.",
 
 	"patpat.formatter.enabled_or_disabled.true": "Enabled",
 	"patpat.formatter.enabled_or_disabled.false": "Disabled",
