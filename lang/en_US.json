@@ -74,6 +74,12 @@
 	"patpat.modmenu.option.bypass_server_animations_priority_enabled.name": "Bypass Server Animations",
 	"patpat.modmenu.option.bypass_server_animations_priority_enabled.description": "If enabled, server animations priority will bypassing;\nif disabled, won't.",
 
+	"patpat.modmenu.group.fun.name": "Fun",
+	"patpat.modmenu.group.fun.description": "Some fun options for PatPat mod.",
+
+	"patpat.modmenu.option.pvp_mode_enabled.name": "Enable Pvp Mode (Pattack?)",
+	"patpat.modmenu.option.pvp_mode_enabled.description": "If enabled, you will also pat entities on attack;\nif disabled, won't.",
+
 	"patpat.modmenu.group.proximity_packets.name": "Proximity Packets",
 	"patpat.modmenu.group.proximity_packets.description": "Proximity packets are packets for exchanging small data between players close to each other.\n\nPatPat Mod uses such packets in pat packets so that other players will see your pats, even without having a mod or plugin on the server.\n\nPure magic.",
 
