@@ -26,5 +26,7 @@
 	"patpat.modmenu.option.hiding_nickname_enabled.description": "Nếu được bật, Biệt danh của các thực thể sẽ mất khi bạn hoặc ai đó vuốt ve nó;\nNếu tắt, sẽ không mất.",
 	"patpat.modmenu.no_config_libraries_screen.close": "Nhấn [Esc] để đóng",
 	"patpat.modmenu.group.custom_animations.name": "Các Hoạt Ảnh Tùy Chọn",
-	"patpat.modmenu.group.custom_animations.description": "Phần cài đặt cho các hoạt ảnh tùy chọn tạo khi đang sử dụng các gói tài nguyên."
+	"patpat.modmenu.group.custom_animations.description": "Phần cài đặt cho các hoạt ảnh tùy chọn tạo khi đang sử dụng các gói tài nguyên.",
+	"patpat.formatter.enabled_or_disabled.true": "Bật",
+	"patpat.formatter.enabled_or_disabled.false": "Tắt"
 }
