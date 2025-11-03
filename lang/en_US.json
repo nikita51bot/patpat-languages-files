@@ -93,8 +93,11 @@
 	"patpat.command.error.number_less_than": "Number {0} can't be less than {1}",
 	"patpat.command.error.not_time": "{0} is not a valid time value (examples: {1})",
 	"patpat.command.error.time_less_than": "Time {0} can't be less than {1}",
-	"patpat.command.error.player_not_exist": "Player {0} does not exist!",
-	"patpat.command.error.only_one_player": "This command can have only one player in argument",
+	"patpat.command.error.player_not_exist": "Player {0} does not exist",
+	"patpat.command.error.player_not_online": "Player {0} is currently offline",
+	"patpat.command.error.only_one_player": "This command can have only one player as argument",
+	"patpat.command.error.entity_not_exist": "Entity {0} does not exist",
+	"patpat.command.error.entity_not_living_entity": "Entity {0} is not a LivingEntity",
 
 	"patpat.command.no_permission": "You don't have permission to execute this command!",
 
@@ -150,6 +153,8 @@
 	"patpat.command.ignore.add.already": "Mob {0} is already ignored",
 	"patpat.command.ignore.remove.success": "Mob {0} is no longer ignored",
 	"patpat.command.ignore.remove.already": "Mob {0} wasn't ignored",
+
+	"patpat.command."
 
 	"patpat.warn.old_version_mod": "You have an outdated mod version that will no longer be supported in future plugin updates. Please update as soon as possible!",
 	"patpat.link.open": "Open {0}"
