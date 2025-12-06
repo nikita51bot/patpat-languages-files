@@ -98,5 +98,5 @@
 	"patpat.command.info.minecraft_version": "Wersja Minecraft: {0}",
 	"patpat.command.info.version": "Wersja: {0}",
 	"patpat.command.info.copy": "Skopiuj informacje debug",
-	"patpat.command.on.success": "Mod GłaskuGłasku został włączony"
+	"patpat.command.on.success": "Mod PatPat został włączony"
 }
