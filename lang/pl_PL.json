@@ -98,5 +98,10 @@
 	"patpat.command.info.minecraft_version": "Wersja Minecraft: {0}",
 	"patpat.command.info.version": "Wersja: {0}",
 	"patpat.command.info.copy": "Skopiuj informacje debug",
-	"patpat.command.on.success": "Mod PatPat został włączony"
+	"patpat.command.on.success": "Mod PatPat został włączony",
+	"patpat.command.on.already": "Mod PatPat był już włączony",
+	"patpat.command.off.success": "Mod PatPat został wyłączony",
+	"patpat.command.off.already": "Mod PatPat był już wyłączony",
+	"patpat.command.ratelimit.set.increment": "Ustaw znacznik przyrostu na: {0}",
+	"patpat.command.ratelimit.set.interval": "Ustaw znacznik interwału na: {0}"
 }
