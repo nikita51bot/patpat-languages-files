@@ -73,5 +73,13 @@
 	"patpat.formatter.enabled_or_disabled.false": "Wyłączone",
 	"patpat.keybinding.pat": "Pogłaszcz Stworzenie",
 	"patpat.command.error.failed_when_parsing": "Błąd podczas analizy: {0}",
-	"patpat.command.error.not_number": "{0} to nie numer"
+	"patpat.command.error.not_number": "{0} to nie numer",
+	"patpat.command.error.number_less_than": "Numer {0} nie może być mniejszy niż {1}",
+	"patpat.command.error.not_time": "{0} nie jest odpowiednią wartością czasu (przykład:{1})",
+	"patpat.command.error.time_less_than": "Czas {0} nie może być mniejszy niż {1}",
+	"patpat.command.error.player_not_exist": "Gracz {0} nie istnieje",
+	"patpat.command.error.player_not_online": "Gracz {0} jest obecnie nieaktywny",
+	"patpat.command.error.only_one_player": "Ta komenda może mieć tylko jednego gracza jako argument",
+	"patpat.command.error.entity_not_exist": "Istota {0} nie istnieje",
+	"patpat.command.error.entity_not_living_entity": "Istota {0} nie jest żywą jednostką"
 }
