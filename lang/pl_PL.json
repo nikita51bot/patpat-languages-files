@@ -81,5 +81,10 @@
 	"patpat.command.error.player_not_online": "Gracz {0} jest obecnie nieaktywny",
 	"patpat.command.error.only_one_player": "Ta komenda może mieć tylko jednego gracza jako argument",
 	"patpat.command.error.entity_not_exist": "Istota {0} nie istnieje",
-	"patpat.command.error.entity_not_living_entity": "Istota {0} nie jest żywą jednostką"
+	"patpat.command.error.entity_not_living_entity": "Istota {0} nie jest żywą jednostką",
+	"patpat.command.no_permission": "Nie masz uprawnień do użycia tej komendy!",
+	"patpat.command.list.add.success": "Gracz {0} został dodany na listę",
+	"patpat.command.list.add.already": "Gracz {0} jest już na liście!",
+	"patpat.command.list.remove.success": "Gracz {0} został usunięty z listy",
+	"patpat.command.list.remove.already": "Gracza {0} nie ma już na liście!"
 }
