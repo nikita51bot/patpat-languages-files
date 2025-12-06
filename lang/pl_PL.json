@@ -89,5 +89,14 @@
 	"patpat.command.list.remove.already": "Gracza {0} nie ma już na liście!",
 	"patpat.command.list.set.success": "Tryb listy został zmieniony na {0}",
 	"patpat.command.list.set.failed": "{0} to nieprawidłowy tryb listy!",
-	"patpat.command.list.set.already": "Tryb listy to już {0}!"
+	"patpat.command.list.set.already": "Tryb listy to już {0}!",
+	"patpat.command.list.info.mode": "Tryb Listy: {0}",
+	"patpat.command.list.info.content": "{0} gracz(y) jest na liście:",
+	"patpat.command.list.empty": "*puste*",
+	"patpat.command.reload": "Przeładowanie konfiguracji wykonane",
+	"patpat.command.info.platform": "Platforma: {0}",
+	"patpat.command.info.minecraft_version": "Wersja Minecraft: {0}",
+	"patpat.command.info.version": "Wersja: {0}",
+	"patpat.command.info.copy": "Skopiuj informacje debug",
+	"patpat.command.on.success": "Mod GłaskuGłasku został włączony"
 }
