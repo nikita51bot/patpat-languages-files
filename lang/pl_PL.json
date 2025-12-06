@@ -1,1 +1,22 @@
-{}
+{
+	"modmenu.descriptionTranslation.patpat": "Prosty mod od strony klienta albo (opcjonalnie) serwera do głaskania każdego (żywego) stworzenia!",
+	"patpat.title.client": "PatPat Klient",
+	"patpat.modmenu.title": "PatPat ekran konfiguracji głaskania ze strony klienta",
+	"patpat.modmenu.category.main.name": "PatPat Ekran konfiguracji głaskania ze strony klienta",
+	"patpat.modmenu.no_config_libraries_screen.message": "Potrzebujesz zainstalować {0} albo {1} żeby otworzyć ekran konfiguracji klienta głaskania.",
+	"patpat.modmenu.no_config_libraries_screen.close": "[Esc] żeby zamknąć",
+	"patpat.modmenu.no_config_libraries_screen.open_page": "Otwórz {0} stronę",
+	"patpat.modmenu.group.main.name": "Główna",
+	"patpat.modmenu.group.main.description": "Główne ustawienia moda PatPat.",
+	"patpat.title": "PatPat",
+	"patpat.modmenu.option.enable_mod.name": "Włącz mod",
+	"patpat.modmenu.option.enable_mod.description": "Jeśli włączony, zobaczysz głaskanie stwoerzeń i inne właściwości;\njeśli wyłączone, nic nie zobaczysz.",
+	"patpat.modmenu.option.debug_log_enabled.name": "Włącz Dziennik Debugowania",
+	"patpat.modmenu.option.debug_log_enabled.description": "Jeśli włączone, dodatkowe informacje będą zarejestrowane w konsoli do debugowania;\njeśli wyłączone, nie będą rejestrowane.",
+	"patpat.modmenu.group.custom_animations.name": "Niestandardowe Animacje",
+	"patpat.modmenu.group.custom_animations.description": "Ustawienia niestandardowych animacji zrobionych przy użyciu pakietów zasobów.",
+	"patpat.modmenu.option.skip_outdated_animations_enabled.name": "Pomiń przedawnione animacje",
+	"patpat.modmenu.option.skip_outdated_animations_enabled.description": "Jeśli włączone, animacje z przedawnionych wersji pakietów zasobów będą pomniniente;\njeśli wyłączone, nie będą wyłączone.",
+	"patpat.modmenu.group.sound.name": "Dźwięk",
+	"patpat.modmenu.group.sound.description": "Ustawienia dźwięku moda PatPat."
+}
