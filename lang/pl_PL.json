@@ -41,5 +41,10 @@
 	"patpat.modmenu.option.animation_offset_z.description": "Przesunięcie animacji wzdłuż osi Z względem domyślnej pozy.",
 	"patpat.modmenu.option.camera_shacking.name": "Drżenie Kamery",
 	"patpat.modmenu.option.camera_shacking.description": "Jeśli włączone, twoja kamera będzie drżeć jak ktoś cię głaska;\njeśli wyłączone, nie będzie.",
-	"patpat.modmenu.option.pat_weight.name": "Waga Głaskania"
+	"patpat.modmenu.option.pat_weight.name": "Waga Głaskania",
+	"patpat.modmenu.option.pat_weight.description": "Siła głaskania. Im większa tym mocniejszy będzie efekt zgniatania na stworzeniu.",
+	"patpat.modmenu.group.multiplayer.name": "Tryb Wieloosobowy",
+	"patpat.modmenu.group.multiplayer.description": "Ustawienia moda PatPat powiązane z trybem wieloosobowym.",
+	"patpat.modmenu.option.pat_me_enabled.name": "Włącz Pogłaszcz mnie",
+	"patpat.modmenu.option.pat_me_enabled.description": "Jeśli włączone, inni gracze będą mogli cię pogłaskać;\njeśli wyłączone, nie będą mogli tego zrobić."
 }
