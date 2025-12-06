@@ -86,5 +86,8 @@
 	"patpat.command.list.add.success": "Gracz {0} został dodany na listę",
 	"patpat.command.list.add.already": "Gracz {0} jest już na liście!",
 	"patpat.command.list.remove.success": "Gracz {0} został usunięty z listy",
-	"patpat.command.list.remove.already": "Gracza {0} nie ma już na liście!"
+	"patpat.command.list.remove.already": "Gracza {0} nie ma już na liście!",
+	"patpat.command.list.set.success": "Tryb listy został zmieniony na {0}",
+	"patpat.command.list.set.failed": "{0} to nieprawidłowy tryb listy!",
+	"patpat.command.list.set.already": "Tryb listy to już {0}!"
 }
