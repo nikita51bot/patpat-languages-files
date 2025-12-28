@@ -123,5 +123,6 @@
 	"patpat.modmenu.group.fun.description": "Трохи забавних функцій для PatPat мода.",
 	"patpat.command.error.player_not_online": "Гравець {0} наразі не в мережі",
 	"patpat.command.error.entity_not_exist": "Сутності {0} не існує",
-	"patpat.command.error.entity_not_living_entity": "Сутність {0} не є LivingEntity"
+	"patpat.command.error.entity_not_living_entity": "Сутність {0} не є LivingEntity",
+	"key.category.patpat.keybinding": "PatPat"
 }
