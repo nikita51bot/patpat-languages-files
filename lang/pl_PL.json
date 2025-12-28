@@ -58,7 +58,7 @@
 	"patpat.modmenu.option.pvp_mode.not_empty_hand": "Tylko jak coś trzymasz w ręce",
 	"patpat.modmenu.option.pvp_mode.always": "Zawsze",
 	"patpat.modmenu.group.proximity_packets.name": "Pakiety zbliżeniowe",
-	"patpat.modmenu.group.proximity_packets.description": "Pakiety zbliżeniowe to pakiety służące do wymiany małej ilości danych pomiędzy graczami którzy znajdują się blisko siebie.\n\nMod Głaskanie używa tych pakietów w pakietach głaskanie aby inni gracze widzieli jak coś głaskasz nawet bez zainstalowanego moda albo pluginu na serwerze.\n\nCzysta Magia.",
+	"patpat.modmenu.group.proximity_packets.description": "Pakiety zbliżeniowe to pakiety służące do wymiany małej ilości danych pomiędzy graczami, którzy znajdują się blisko siebie.\n\nMod PatPat używa tych pakietów w pat-pakietach, aby inni gracze widzieli jak coś głaszczesz, nawet bez zainstalowanego moda albo pluginu na serwerze.\n\nCzysta Magia.",
 	"patpat.modmenu.option.proximity_packets_enabled.name": "Włącz Pakiety Zbliżeniowe",
 	"patpat.modmenu.option.proximity_packets_enabled.description": "Jeśli włączone, inni gracze będą wiedzieć jak coś głaskasz (jak mod albo plugin nie są zainstalowane na serwerze);\njeśli wyłączone, nie będą nic widzieć.",
 	"patpat.modmenu.option.proximity_packets_enabled.warn": "Ta opcja działa poprzez wysyłanie pakietów do serwera co może powodować aktywacje anty-cheata który oznaczy tą akcje jako oszukiwanie albo packet flooding- potencjalnie możesz zostać ZBANOWANY na serwerze. Używać ze szczególną ostrożnością!",
@@ -123,5 +123,6 @@
 	"patpat.command.ignore.remove.success": "Istota {0} nie jest już ignorowana",
 	"patpat.command.ignore.remove.already": "Istota {0} nie była ignorowana",
 	"patpat.warn.old_version_mod": "Masz przedawnioną wersje moda który nie wspiera przyszłych aktualizacji pluginu. Prosze zaktualizuj tak szybko jak to możliwe!",
-	"patpat.link.open": "Otwórz: {0}"
+	"patpat.link.open": "Otwórz: {0}",
+	"key.category.patpat.keybinding": "PatPat"
 }
