@@ -123,5 +123,6 @@
 	"patpat.modmenu.option.proximity_packets_list_is_blacklist.description": "Когда включен, список ниже работает как чёрный список, это означает что близкие пакеты не будут работать на серверах перечисленных ниже.\nЕсли выключен, близкие пакеты будут работать только на серверах перечисленных ниже",
 	"patpat.command.error.player_not_online": "Игрок {0} сейчас не в сети",
 	"patpat.command.error.entity_not_exist": "Сущности {0} не существует",
-	"patpat.command.error.entity_not_living_entity": "Сущность {0} не является LivingEntity"
+	"patpat.command.error.entity_not_living_entity": "Сущность {0} не является LivingEntity",
+	"key.category.patpat.keybinding": "PatPat"
 }
