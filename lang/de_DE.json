@@ -41,7 +41,7 @@
 	"patpat.modmenu.option.camera_shacking.name": "Kamera wakeln",
 	"patpat.modmenu.option.camera_shacking.description": "Wenn aktiviert, wird deine Kamera wakeln, wenn dich jemand streichelt.\nWenn deaktiviert, nicht.",
 	"patpat.modmenu.option.pat_weight.name": "Pat schwere",
-	"patpat.modmenu.option.pat_weight.description": "Die Kraft vom patting. Höhere werte drücken die Mobs mehr nach unten.",
+	"patpat.modmenu.option.pat_weight.description": "Die Kraft vom streicheln. Höhere werte drücken die Mobs mehr nach unten.",
 	"patpat.modmenu.group.multiplayer.name": "Mehrspieler",
 	"patpat.modmenu.group.multiplayer.description": "Mehrspieler Einstellungen für die PatPat mod.",
 	"patpat.modmenu.option.pat_me_enabled.name": "Pat Me Aktivieren",
