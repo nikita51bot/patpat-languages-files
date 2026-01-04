@@ -23,5 +23,8 @@
 	"patpat.modmenu.option.sounds_volume.name": "Volume",
 	"patpat.modmenu.option.sounds_volume.description": "Volume général des sons de caresse.",
 	"patpat.modmenu.group.visual.name": "Visuel",
-	"patpat.modmenu.group.visual.description": "Paramètres visuels du mod PatPat."
+	"patpat.modmenu.group.visual.description": "Paramètres visuels du mod PatPat.",
+	"patpat.title.client": "Client PatPat",
+	"patpat.warn.old_version_mod": "Vous avez une version du mod qui ne sera plus supporté dans les prochaines mises à jour du plugin. Veuillez mettre à jour au plus vite !",
+	"patpat.link.open": "Ouvrir {0}"
 }
