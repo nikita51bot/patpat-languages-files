@@ -29,7 +29,7 @@
 	"patpat.modmenu.option.client_swing_hand_enabled.name": "クライアント側の手振りを有効化",
 	"patpat.modmenu.option.client_swing_hand_enabled.description": "有効にすると、自分がなでているときに手を振る動作が表示されます。\n無効にすると、表示されません。",
 	"patpat.modmenu.option.server_swing_hand_enabled.name": "サーバー側の手振りを有効化",
-	"patpat.modmenu.option.server_swing_hand_enabled.description": "有効にすると、他のプレイヤーにもあなたの手振り動作が表示されます。\n無効にすると、表示されません。",
+	"patpat.modmenu.option.server_swing_hand_enabled.description": "有効にすると、他のプレイヤーにもあなたの手振り動作が表示されます;\n無効にすると、表示されません。",
 	"patpat.modmenu.option.lowering_animation_enabled.name": "アニメーションを低くする",
 	"patpat.modmenu.option.lowering_animation_enabled.description": "有効にすると、なでなでアニメーションの位置が少し下に調整されます。\n無効にすると、調整されません。",
 	"patpat.modmenu.option.animation_offset_x.name": "アニメーション X オフセット",
