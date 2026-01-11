@@ -124,5 +124,7 @@
 	"patpat.command.error.player_not_online": "Игрок {0} сейчас не в сети",
 	"patpat.command.error.entity_not_exist": "Сущности {0} не существует",
 	"patpat.command.error.entity_not_living_entity": "Сущность {0} не является LivingEntity",
-	"key.category.patpat.keybinding": "PatPat"
+	"key.category.patpat.keybinding": "PatPat",
+	"patpat.command.pat.success.mob": "Моб {0} был поглажен",
+	"patpat.command.pat.success.player": "Игрок {0} был поглажен"
 }
