@@ -119,6 +119,8 @@
 	"patpat.command.ratelimit.info.player": "Player: {0}",
 	"patpat.command.ratelimit.info.tokens": "Tokens: {0}",
 	"patpat.command.ratelimit.info.tokens.bypass": "Bypass",
+	"patpat.command.pat.success.mob": "Mob {0} has been patted",
+	"patpat.command.pat.success.player": "Player {0} has been patted",
 	"patpat.command.ignore.add.success": "Mob {0} have been ignored",
 	"patpat.command.ignore.add.already": "Mob {0} is already ignored",
 	"patpat.command.ignore.remove.success": "Mob {0} is no longer ignored",
