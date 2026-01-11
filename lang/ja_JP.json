@@ -1,1 +1,16 @@
-{}
+{
+	"modmenu.descriptionTranslation.patpat": "あらゆる（生きている）モブをなでなでできる、シンプルなクライアント＆（オプションで）サーバー対応の Fabric Mod です！",
+	"patpat.title.client": "PatPat クライアント",
+	"patpat.modmenu.title": "PatPat クライアント設定画面",
+	"patpat.modmenu.category.main.name": "PatPat クライアント設定画面",
+	"patpat.modmenu.no_config_libraries_screen.message": "PatPat クライアント設定画面を開くには {0} または {1} をインストールする必要があります。",
+	"patpat.modmenu.no_config_libraries_screen.close": "[Esc] で閉じる",
+	"patpat.modmenu.no_config_libraries_screen.open_page": "{0} のページを開く",
+	"patpat.modmenu.group.main.name": "メイン",
+	"patpat.modmenu.group.main.description": "PatPat Mod の基本設定です。",
+	"patpat.modmenu.option.enable_mod.name": "Mod を有効化",
+	"patpat.modmenu.option.enable_mod.description": "有効にすると、モブをなでる動作や各種機能が使えます。\n無効にすると、使えません。",
+	"patpat.modmenu.option.debug_log_enabled.name": "デバッグログを有効化",
+	"patpat.modmenu.option.debug_log_enabled.description": "有効にすると、デバッグ用の追加情報がコンソールに出力されます。\n無効にすると、出力されません。",
+	"patpat.modmenu.group.custom_animations.name": "カスタムアニメーション"
+}
