@@ -125,6 +125,17 @@
 	"patpat.command.error.entity_not_exist": "Сущности {0} не существует",
 	"patpat.command.error.entity_not_living_entity": "Сущность {0} не является LivingEntity",
 	"key.category.patpat.keybinding": "PatPat",
-	"patpat.command.pat.success.mob": "Моб {0} был поглажен",
-	"patpat.command.pat.success.player": "Игрок {0} был поглажен"
+	"patpat.command.pat.success.mob": "Сущность {0} был поглажен",
+	"patpat.command.pat.success.player": "Игрок {0} был поглажен",
+	"patpat.command.error.permission_only_lowercase": "Разрешение {0} должно быть написано в нижнем регистре",
+	"patpat.command.error.permission_contain_space": "Разрешение {0} не должно содержать пробелы",
+	"patpat.command.error.permission_unknown_character": "Разрешение {0} должно содержать только символы a-z и нижние подчеркивания, точки разрешены только между словами",
+	"patpat.command.permission.enable.success": "Разрешение на паты было включено, теперь игроки должны иметь право {0}, чтобы их паты были видны остальным",
+	"patpat.command.permission.enable.already": "Разрешение на паты уже включено",
+	"patpat.command.permission.disable.success": "Разрешение на паты было выключено, теперь игроки могут видеть другие паты",
+	"patpat.command.permission.disable.already": "Разрешение на паты уже выключено",
+	"patpat.command.permission.set.success": "Разрешение на паты было изменено: {0}",
+	"patpat.command.permission.set.already": "Это разрешение уже установлено для патов",
+	"patpat.command.permission.info.status": "Разрешение на паты {0}",
+	"patpat.command.permission.info.permission": "Разрешение: {0}"
 }
