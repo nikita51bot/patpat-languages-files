@@ -123,5 +123,18 @@
 	"patpat.modmenu.option.pat_weight.description": "なでなでの強さを設定します。数値が大きいほど、モブの押しつぶされる演出が強くなります。",
 	"patpat.command.ratelimit.set.increment": "トークン増加量を {0} に設定しました",
 	"patpat.command.ratelimit.info.increment": "トークン増加量: {0}",
-	"patpat.modmenu.option.pat_weight.name": "なでなでの強さ"
+	"patpat.modmenu.option.pat_weight.name": "なでなでの強さ",
+	"patpat.command.error.permission_only_lowercase": "権限 {0} は小文字のみが使用できます",
+	"patpat.command.error.permission_contain_space": "権限 {0} にはスペースを含めないでください",
+	"patpat.command.error.permission_unknown_character": "権限 {0} は小文字アルファベットとアンダースコアのみを含むことができ、単語の区切り文字はピリオドのみが許可されています",
+	"patpat.command.pat.success.mob": "モブ {0} は撫でられました",
+	"patpat.command.pat.success.player": "プレイヤー {0} は撫でられました",
+	"patpat.command.permission.enable.success": "なでなでの権限が有効化されました。他のプレイヤーになでなでを表示するには、プレイヤーが {0} 権限を持っている必要があります",
+	"patpat.command.permission.enable.already": "なでなでの権限はすでに有効化されています",
+	"patpat.command.permission.disable.success": "なでなでの権限は無効化されました。プレイヤーはお互いのなでなでを見ることができます",
+	"patpat.command.permission.disable.already": "なでなでの権限は既に無効化されています",
+	"patpat.command.permission.set.success": "なでなでの権限を更新しました: {0}",
+	"patpat.command.permission.set.already": "このなでなでの権限は既に設定されています",
+	"patpat.command.permission.info.status": "なでなで権限は {0} です",
+	"patpat.command.permission.info.permission": "権限: {0}"
 }
