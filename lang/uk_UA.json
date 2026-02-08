@@ -126,5 +126,9 @@
 	"patpat.command.error.entity_not_living_entity": "Сутність {0} не є LivingEntity",
 	"key.category.patpat.keybinding": "PatPat",
 	"patpat.command.pat.success.player": "Гравець {0} був погладжений",
-	"patpat.command.pat.success.mob": "Моб {0} був погладжений"
+	"patpat.command.pat.success.mob": "Моб {0} був погладжений",
+	"patpat.command.error.permission_only_lowercase": "Дозвіл {0} повинен бути написаний тільки малими літерами",
+	"patpat.command.error.permission_contain_space": "Дозвіл {0} не повинен містити пробілів",
+	"patpat.command.error.permission_unknown_character": "Дозвіл {0} повинен містити тільки літери a-z та підкреслення, крапки дозволяються тільки між словами",
+	"patpat.command.permission.info.permission": "Дозвіл: {0}"
 }
