@@ -1,1 +1,14 @@
-{}
+{
+	"modmenu.descriptionTranslation.patpat": "轻量客户端（服务端可选）Fabric 模组 —— 可抚摸所有活体生物！",
+	"patpat.title.client": "PatPat 客户端",
+	"patpat.modmenu.title": "PatPat 客户端配置界面",
+	"patpat.modmenu.category.main.name": "PatPat 客户端配置界面",
+	"patpat.modmenu.no_config_libraries_screen.message": "你需要安装 {0} 或 {1} 才能打开 PatPat 客户端配置界面。",
+	"patpat.modmenu.no_config_libraries_screen.close": "按 [ESC] 键关闭",
+	"patpat.modmenu.no_config_libraries_screen.open_page": "打开 {0} 的下载页面",
+	"patpat.modmenu.group.main.name": "主要设置",
+	"patpat.modmenu.group.main.description": "PatPat 模组的主要设置。",
+	"patpat.modmenu.option.enable_mod.name": "启用模组",
+	"patpat.modmenu.option.enable_mod.description": "如果启用，你就能抚摸生物并见到其他特性；\n如果禁用，那就没有。",
+	"patpat.modmenu.option.debug_log_enabled.name": "启用调试日志"
+}
