@@ -26,5 +26,7 @@
 	"patpat.modmenu.group.visual.description": "Paramètres visuels du mod PatPat.",
 	"patpat.title.client": "Client PatPat",
 	"patpat.warn.old_version_mod": "Vous avez une version du mod qui ne sera plus supporté dans les prochaines mises à jour du plugin. Veuillez mettre à jour au plus vite !",
-	"patpat.link.open": "Ouvrir {0}"
+	"patpat.link.open": "Ouvrir {0}",
+	"patpat.modmenu.option.hiding_nickname_enabled.name": "Activer cacher les pseudos",
+	"patpat.modmenu.option.hiding_nickname_enabled.description": "Si activé, les pseudo disparaitront quand vous ou quelqu'un pat,\nsi désactivé, non."
 }
