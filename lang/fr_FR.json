@@ -28,5 +28,14 @@
 	"patpat.warn.old_version_mod": "Vous avez une version du mod qui ne sera plus supporté dans les prochaines mises à jour du plugin. Veuillez mettre à jour au plus vite !",
 	"patpat.link.open": "Ouvrir {0}",
 	"patpat.modmenu.option.hiding_nickname_enabled.name": "Activer cacher les pseudos",
-	"patpat.modmenu.option.hiding_nickname_enabled.description": "Si activé, les pseudo disparaitront quand vous ou quelqu'un pat,\nsi désactivé, non."
+	"patpat.modmenu.option.hiding_nickname_enabled.description": "Si activé, les pseudo disparaitront quand vous ou quelqu'un pat,\nsi désactivé, non.",
+	"patpat.modmenu.option.animation_offset_x.name": "Décalage d'animation X",
+	"patpat.modmenu.option.animation_offset_x.description": "Décale l'animation sur l'axe X par rapport à la position par défaut.",
+	"patpat.modmenu.option.animation_offset_y.name": "Décalage d'animation Y",
+	"patpat.modmenu.option.animation_offset_y.description": "Décale l'animation sur l'axe Y par rapport à la position par défaut.",
+	"patpat.modmenu.option.animation_offset_z.name": "Décalage d'animation Z",
+	"patpat.modmenu.option.animation_offset_z.description": "Décale l'animation sur l'axe Z par rapport à la position par défaut.",
+	"patpat.modmenu.option.camera_shacking.name": "Secousses de l'Écran",
+	"patpat.modmenu.option.camera_shacking.description": "Si activée, votre caméra tremblera quand quelqu'un vous tapotera la tête ;\nsinon, elle restera fixe.",
+	"patpat.modmenu.option.pat_weight.name": "Force du tapotement"
 }
