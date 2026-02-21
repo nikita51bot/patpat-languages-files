@@ -131,7 +131,7 @@
 	"patpat.command.error.permission_contain_space": "Дозвіл {0} не повинен містити пробілів",
 	"patpat.command.error.permission_unknown_character": "Дозвіл {0} повинен містити тільки літери a-z та підкреслення, крапки дозволяються тільки між словами",
 	"patpat.command.permission.info.permission": "Дозвіл: {0}",
-	"patpat.command.permission.enable.success": "Дозвіл на погладжування було ввімкнено, тепер гравці повинні мати дозвіл {0}, щоб їх погладжування були видимими для інших",
+	"patpat.command.permission.enable.success": "Дозвіл на погладжування було ввімкнено, тепер гравці повинні мати дозвіл {0} щоб їх погладжування були видимими для інших",
 	"patpat.command.permission.enable.already": "Дозвіл на погладжування вже увімкнено",
 	"patpat.command.permission.disable.success": "Дозвіл на погладжування було вимкнено, тепер гравці можуть бачити погладжування один одного",
 	"patpat.command.permission.disable.already": "Дозвіл на погладжування вже вимкнено",
