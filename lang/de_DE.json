@@ -124,5 +124,14 @@
 	"patpat.command.info.version": "Version: {0}",
 	"patpat.command.ratelimit.info.status": "Status: {0}",
 	"patpat.command.ratelimit.info.interval": "Token Interval: {0}",
-	"patpat.command.ratelimit.info.limit": "Token Limit: {0}"
+	"patpat.command.ratelimit.info.limit": "Token Limit: {0}",
+	"patpat.command.error.permission_only_lowercase": "Berechtigung {0} muss in Kleinbuchstaben geschrieben werden",
+	"patpat.command.error.permission_contain_space": "Berechtigung {0} darf keine Leerzeichen enthalten",
+	"patpat.command.error.permission_unknown_character": "Berechtigung {0} darf nur Zeichen von A-Z und Unterstriche enthalten, Kommas sind nur zwischen Wörtern erlaubt",
+	"patpat.command.pat.success.mob": "Mob {0} würde gestreichelt",
+	"patpat.command.pat.success.player": "Spieler {0} würde gestreichelt",
+	"patpat.command.permission.enable.success": "Spieler {0} wurde gestreichelt",
+	"patpat.command.permission.enable.already": "Berechtigung für streicheln sind bereits aktiviert",
+	"patpat.command.permission.disable.success": "Berechtigung für streicheln wurde deaktiviert, Spiele können nun gegenseitig das streicheln sehen",
+	"patpat.command.permission.disable.already": "Berechtigung für streicheln ist bereits deaktiviert"
 }
