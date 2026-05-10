@@ -83,7 +83,7 @@
 	"patpat.modmenu.group.sound.name":"音效",
 	"patpat.modmenu.group.visual.description":"PatPat 模组的视觉设置。",
 	"patpat.modmenu.group.visual.name":"视觉",
-	"patpat.modmenu.no_config_libraries_screen.close":"按 [ESC] 键关闭",
+	"patpat.modmenu.no_config_libraries_screen.close":"按 [Esc] 键关闭",
 	"patpat.modmenu.no_config_libraries_screen.message":"你需要安装 {0} 或 {1} 才能打开 PatPat 客户端配置界面。",
 	"patpat.modmenu.no_config_libraries_screen.open_page":"打开 {0} 的下载页面",
 	"patpat.modmenu.option.animation_offset_x.description":"沿 X 轴偏移动画至默认位置相对处。",
