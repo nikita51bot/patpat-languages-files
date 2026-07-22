@@ -1,3 +1,7 @@
 {
-	"patpat.title":"PatPat"
+	"modmenu.descriptionTranslation.patpat":"Semplice mod Fabric per Client (e opzionalmente Server) per accarezzare qualsiasi mob (vivente)!",
+	"patpat.modmenu.category.main.name":"PatPat - Schermata di Configurazione Client",
+	"patpat.modmenu.title":"PatPat - Schermata di Configurazione Client",
+	"patpat.title":"PatPat",
+	"patpat.title.client":"Cliente PatPat"
 }
