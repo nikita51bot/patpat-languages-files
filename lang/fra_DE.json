@@ -1,3 +1,11 @@
 {
-	"patpat.title":"PatPat"
+	"modmenu.descriptionTranslation.patpat":"Un Client simple et (Optionellement) un mod Fabric côté Serveur pour caresser n'importe quelle mob (vivant) !",
+	"patpat.modmenu.category.main.name":"Écran de configuration de PatPat côté Client",
+	"patpat.modmenu.group.main.description":"Paramètre principale du mod PatPat.",
+	"patpat.modmenu.no_config_libraries_screen.close":"[Esc] pour fermer",
+	"patpat.modmenu.no_config_libraries_screen.message":"Vous devez installer {0} ou {1} pour ouvrir l'écran de configuration de Patpat côté Client.",
+	"patpat.modmenu.no_config_libraries_screen.open_page":"Ouvrir la page {0}",
+	"patpat.modmenu.title":"Écran de configuration de PatPat côté Client",
+	"patpat.title":"PatPat",
+	"patpat.title.client":"Client PatPat"
 }
