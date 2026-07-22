@@ -30,5 +30,6 @@
 	"patpat.modmenu.option.sounds_volume.name":"Ses yüksekliği",
 	"patpat.modmenu.title":"PatPat Client Taraflı Konfigürasyon Ekranı",
 	"patpat.title":"PatPat",
-	"patpat.title.client":"PatPat Client"
+	"patpat.title.client":"PatPat Client",
+	"patpat.warn.old_version_mod":"Bundan sonrasındaki plugin güncellemelerinde destek almayacak tarihi geçmiş bir mod versiyonu kullanıyorsunuz. Lütfen en yakın zamanda günceleyin."
 }
