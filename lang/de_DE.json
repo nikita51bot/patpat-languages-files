@@ -1,6 +1,6 @@
 {
 	"key.category.patpat.keybinding":"PatPat",
-	"modmenu.descriptionTranslation.patpat":"Simple Client und (optional) Server side Fabric Mod für das Streicheln jeglicher (lebender) Mobs!",
+	"modmenu.descriptionTranslation.patpat":"Simple Client und eine (optional)serverseitige Fabric Mod für das Streicheln jeglicher (lebender) Mobs!",
 	"patpat.command.error.entity_not_exist":"Entity {0} existiert nicht",
 	"patpat.command.error.entity_not_living_entity":"Entity {0} ist keine LivingEntity",
 	"patpat.command.error.failed_when_parsing":"Error während dem parsen: {0}",
@@ -43,6 +43,8 @@
 	"patpat.command.permission.disable.success":"Berechtigung für streicheln wurde deaktiviert, Spiele können nun gegenseitig das streicheln sehen",
 	"patpat.command.permission.enable.already":"Berechtigung für streicheln sind bereits aktiviert",
 	"patpat.command.permission.enable.success":"Spieler {0} wurde gestreichelt",
+	"patpat.command.permission.info.permission":"Berechtigung: {0}",
+	"patpat.command.permission.set.success":"Berechtigung zum streicheln wurde aktualisiert",
 	"patpat.command.ratelimit.disable.already":"Raten Limit ist bereits Deaktiviert",
 	"patpat.command.ratelimit.disable.success":"Raten Limit wurde Deaktiviert",
 	"patpat.command.ratelimit.enable.already":"Raten Limit ist bereits Aktiviert",
